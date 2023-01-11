@@ -1,5 +1,4 @@
-import React from 'react';
-import { Routes, Route, Router } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import MovieApp from './movie_app';
 import MainApp from './main/Pages/main';
 import Home from './movie_app/Pages/Home';
