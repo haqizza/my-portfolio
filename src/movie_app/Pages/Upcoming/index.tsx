@@ -6,36 +6,36 @@ import CardListTable from "../../Components/CardListTable";
 
 
 
-const CurrentlyAiring = () => {
+const Upcoming = () => {
     const appService = new AppService();
     
-    const [animeAiring, setAnimeAiring] = useState<AnimeData.CardData[]>([]);
+    const [animeUpcoming, setAnimeUpcoming] = useState<AnimeData.CardData[]>([]);
 
  
-    const getAiring = async () => {
-        let response: AnimeData.Datum[] = await appService.getAiring();
+    const getUpcoming = async () => {
+        let response: AnimeData.Datum[] = await appService.getUpcoming();
 
         const data: AnimeData.CardData[] = await appService.transformData(response);
         
-        setAnimeAiring(data);
+        setAnimeUpcoming(data);
     }
 
 
     useEffect(() => {
-        getAiring();
+        getUpcoming();
     }, []);
 
     return(
         <>
             <div className="p-2 font-base text-center text-4xl font-medium">
-                Airing
+                Upcoming
             </div>
             <CardListTable
-                title="Currently Airing"
-                data={ animeAiring }
+                title=""
+                data={ animeUpcoming }
             />
         </>
     )
 }
 
-export default CurrentlyAiring;
+export default Upcoming;

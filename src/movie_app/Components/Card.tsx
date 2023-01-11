@@ -7,7 +7,7 @@ interface Props{
 const Card = (props: Props) => {
 
     return(
-        <Link to={ "/movie/"+ props.data.mal_id + "/detail" }>
+        <Link to={ "/movie-app/movie/"+ props.data.mal_id + "/detail" }>
             <div className="relative flex flex-col justify-end h-96 w-52 my-8 mx-4 bg-gray-700 rounded-lg overflow-hidden">
                 <img    
                     src={ props.data.image_url }

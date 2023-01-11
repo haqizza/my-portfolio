@@ -20,7 +20,7 @@ const CardListRow = (props: Props) => {
     const cardComponents = cards?.map((data: AnimeData.CardData) => (<Card key={data.mal_id.toString()} data={ data }/>)) 
 
     return(
-        <div id="listContainer" className="mt-14 mb-4 mx-4 p-4 text-white">
+        <div id="listContainer" className="mb-4 mx-4 p-4 text-white">
             <div className="p-2 font-base text-3xl">
                 { props.title }
             </div>

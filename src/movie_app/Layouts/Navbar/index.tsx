@@ -7,13 +7,13 @@ const Navbar = () => {
                 <span className="text-2xl font-medium">YAL</span>
             </Link>
             <div className="flex flex-row">
-                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/">
+                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/movie-app/">
                     Home
                 </Link>
-                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/upcoming">
+                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/movie-app/upcoming">
                     Upcoming
                 </Link>
-                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/currently-airing">
+                <Link className="mx-2 p-2 hover:bg-gray-200 hover:text-gray-800 rounded-md" to="/movie-app/currently-airing">
                     Currently Airing
                 </Link>
             </div>
