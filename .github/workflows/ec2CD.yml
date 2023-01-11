@@ -29,5 +29,7 @@ jobs:
           cd ~/haqizza/apps/my-portfolio
           git pull origin main
           git status
+          export NVM_DIR=~/.nvm
+          source ~/.nvm/nvm.sh
           npm install --only=prod
           pm2 restart my-portfolio
