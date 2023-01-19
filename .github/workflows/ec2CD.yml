@@ -32,5 +32,4 @@ jobs:
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
           npm install --only=prod
-          npm run build
           pm2 restart my-portfolio
