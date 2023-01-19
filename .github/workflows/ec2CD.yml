@@ -31,5 +31,4 @@ jobs:
           git status
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          npm install --only=prod
-          pm2 restart my-portfolio
+          npm install --omit=dev
