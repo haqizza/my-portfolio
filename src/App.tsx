@@ -33,14 +33,14 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 bg-gray-300 p-1 rounded-r-xl" onClick={() => showController()}>
+      <button className="absolute bottom-0 bg-gray-300 p-1 rounded-r-xl" onClick={() => showController()}>
         {
           controllerWidth === 'w-0' ?
           <FaCaretRight className="h-16" />
           :
           <FaCaretLeft className="h-16" />
         }
-      </div>
+      </button>
     </div>
       <RootRouter />
     </>
