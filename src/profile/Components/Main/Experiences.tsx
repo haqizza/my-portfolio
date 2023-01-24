@@ -14,7 +14,7 @@ interface ExperienceData {
 
 const datas: ExperienceData[] = [
     {
-        name: "Direktorat Teknologi dan Informasi Universitas Pendidikan Indonesia",
+        name: "Direktorat Sistem dan Teknologi Informasi Universitas Pendidikan Indonesia",
         positions: [
             {
                 name: "Web Developer",
@@ -43,7 +43,7 @@ const datas: ExperienceData[] = [
         ]
     },
     {
-        name: "Pusat Unggulan Pelatihan dan Penelitian Kreativitas melalui Sains, Teknologi, Rekayasa, Dan Matematika (Creativity Training and Research Center on STEM/CTR-STEM) Universitas Pendidikan Indonesia",
+        name: "Pusat Unggulan Pelatihan dan Penelitian Kreativitas melalui Sains, Teknologi, Rekayasa, Dan Matematika (Center of Excelence in Creativity Training and Research Center on STEM/CTR-STEM) Universitas Pendidikan Indonesia",
         positions: [
             {
                 name: "Web Developer",

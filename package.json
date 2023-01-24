@@ -1,5 +1,5 @@
 {
-  "name": "3-movie-app-react",
+  "name": "haqizza-portfolio",
   "version": "0.4.1",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && node --max-old-space-size=4096 node_modules/bin/react-scripts.js  build",
+    "build": "CI=false && node --max-old-space-size=4096 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

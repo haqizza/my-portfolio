@@ -11,6 +11,13 @@ interface LicensesNCertificationsData {
 
 const datas: LicensesNCertificationsData[] = [
     {
+        name: "Japanese-Language Proficiency (N3)",
+        institution: "",
+        issued: "December 2022",
+        exp: "December 2027",
+        certUrl: ""
+    },
+    {
         name: "Belajar Jaringan Komputer untuk Pemula",
         institution: "Dicoding Indonesia",
         issued: "January 7, 2023",
@@ -61,13 +68,6 @@ const datas: LicensesNCertificationsData[] = [
         issued: "June 10, 2021",
         exp: "June 10, 2024",
         certUrl: "https://www.dicoding.com/certificates/QLZ98JLL2X5D"
-    },
-    {
-        name: "Japanese-Language Proficiency (N4)",
-        institution: "",
-        issued: "December 2019",
-        exp: "December 2024",
-        certUrl: ""
     },
 ];
 
